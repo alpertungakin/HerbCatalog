@@ -1,0 +1,421 @@
+[{
+  "_id": {
+    "$oid": "63623459c0921668cd54b29b"
+  },
+  "family": "Amaryllidaceae",
+  "nomial": "Allium L.",
+  "binomial": "Allium ampeloprasum L.",
+  "loc": [
+    36.759975,
+    27.806597
+  ],
+  "loc_str": "C2; Muğla,Datça,Emecik Mah.,Karaincir, Sarıliman",
+  "habitat": "Makilik Arazi",
+  "height": 8,
+  "date": {
+    "$date": {
+      "$numberLong": "1525640400000"
+    }
+  },
+  "herb": 19729,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_103651.jpg"
+},{
+  "_id": {
+    "$oid": "636237b6c0921668cd54b29d"
+  },
+  "family": "Ranunculaceae",
+  "nomial": "Helleborus L.",
+  "binomial": "Helleborus orientalis Lam.",
+  "loc": [
+    40.869178,
+    39.380733
+  ],
+  "loc_str": "A7,Trabzon: Düzköy-Çal Camili TP ve Çevresi",
+  "habitat": "Gölgeli ve ormanlık alanlar",
+  "height": 1291,
+  "date": {
+    "$date": {
+      "$numberLong": "1457042400000"
+    }
+  },
+  "herb": 19041,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_105135.jpg"
+},{
+  "_id": {
+    "$oid": "636238fbc0921668cd54b29e"
+  },
+  "family": "Solanaceae",
+  "nomial": "Hyoscyamus L.",
+  "binomial": "Hyoscyamus niger L.",
+  "loc": [
+    40.701125,
+    39.512139
+  ],
+  "loc_str": "A7, Trabzon; Hamsiköy, Anayurt",
+  "habitat": "Yol kenarı",
+  "height": 1500,
+  "date": {
+    "$date": {
+      "$numberLong": "1120338000000"
+    }
+  },
+  "herb": 17314,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_103735.jpg"
+},{
+  "_id": {
+    "$oid": "63623cafc0921668cd54b29f"
+  },
+  "family": "Gentianaceae",
+  "nomial": "Centaurium Rafn.",
+  "binomial": "Centaurium erythraea.",
+  "loc": [
+    40.116892,
+    36.302233
+  ],
+  "loc_str": "2b, Tokat: Artova",
+  "habitat": "Kayalık yamaçlar, çalılık ve seyrek orman",
+  "height": 1510,
+  "date": {
+    "$date": {
+      "$numberLong": "1408914000000"
+    }
+  },
+  "herb": 19528,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_103807.jpg"
+},{
+  "_id": {
+    "$oid": "63623e13c0921668cd54b2a0"
+  },
+  "family": "Asteraceae",
+  "nomial": "Echinops L.",
+  "binomial": "Echinops pungens Trautv. var. pungens",
+  "loc": [
+    40.869176,
+    39.380728
+  ],
+  "loc_str": "A7, Trabzon: Düzköy-Çal Camili TP ve Çevresi",
+  "habitat": "Kayalık yamaçlar, yol kenarları",
+  "height": 1124,
+  "date": {
+    "$date": {
+      "$numberLong": "1469307600000"
+    }
+  },
+  "herb": 19212,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_103832.jpg"
+},{
+  "_id": {
+    "$oid": "63623f05c0921668cd54b2a1"
+  },
+  "family": "Rosaceae",
+  "nomial": "Filipendula Mill.",
+  "binomial": "Filipendula vulgaris Moench.",
+  "loc": [
+    40.287252,
+    37.819193
+  ],
+  "loc_str": "A6, Sivas: Koyulhisar",
+  "habitat": "Çalılık alan",
+  "height": 1650,
+  "date": {
+    "$date": {
+      "$numberLong": "1531170000000"
+    }
+  },
+  "herb": 16000,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_103858.jpg"
+},{
+  "_id": {
+    "$oid": "63623fcdc0921668cd54b2a2"
+  },
+  "family": "Rosaceae",
+  "nomial": "Rosa L.",
+  "binomial": "Rosa Montana",
+  "loc": [
+    40.768391,
+    39.472848
+  ],
+  "loc_str": "A7, Trabzon; Maçka, Çamlıdüz Y.",
+  "habitat": "Orman içi",
+  "height": 1769,
+  "date": {
+    "$date": {
+      "$numberLong": "1216674000000"
+    }
+  },
+  "herb": 17844,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_103918.jpg"
+},{
+  "_id": {
+    "$oid": "636269dac0921668cd54b2a3"
+  },
+  "family": "Caryophyllaceae",
+  "nomial": "Cerastium L.",
+  "binomial": "Cerastium fontanum",
+  "loc": [
+    40.971686,
+    40.331924
+  ],
+  "loc_str": "A8, Trabzon; Of, Kumludere Mah.",
+  "habitat": "Konut bahçesi",
+  "height": 160,
+  "date": {
+    "$date": {
+      "$numberLong": "1541192400000"
+    }
+  },
+  "herb": 21435,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_103940.jpg"
+},{
+  "_id": {
+    "$oid": "63626a96c0921668cd54b2a4"
+  },
+  "family": "Rosaceae",
+  "nomial": "Agrimona L.",
+  "binomial": "Agrimona eupatoria L.",
+  "loc": [
+    40.376065,
+    36.903538
+  ],
+  "loc_str": "2b, Tokat: Almus",
+  "habitat": "Gölgeli ve nemli çayırlık alanlar, ırmak kenarları",
+  "height": 982,
+  "date": {
+    "$date": {
+      "$numberLong": "1406667600000"
+    }
+  },
+  "herb": 19494,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_103957.jpg"
+},{
+  "_id": {
+    "$oid": "63626b4cc0921668cd54b2a5"
+  },
+  "family": "Malvaceae",
+  "nomial": "Lavatera L.",
+  "binomial": "Lavatera thuringiaca L.",
+  "loc": [
+    40.557866,
+    39.293279
+  ],
+  "loc_str": "A8, Gümüşhane: Torul",
+  "habitat": "Çayırlık alan",
+  "height": 1800,
+  "date": {
+    "$date": {
+      "$numberLong": "1530565200000"
+    }
+  },
+  "herb": 20775,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_104018.jpg"
+},{
+  "_id": {
+    "$oid": "63626c09c0921668cd54b2a6"
+  },
+  "family": "Fabaceae",
+  "nomial": "Ceratonia L.",
+  "binomial": "Ceratonia siliqua L.",
+  "loc": [
+    36.760627,
+    27.791569
+  ],
+  "loc_str": "Emecik Mah., Karaincir",
+  "habitat": "Bahçe içi",
+  "height": 16,
+  "date": {
+    "$date": {
+      "$numberLong": "1539118800000"
+    }
+  },
+  "herb": 19707,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_104027.jpg"
+},{
+  "_id": {
+    "$oid": "63626efbc0921668cd54b2a7"
+  },
+  "family": "Fabaceae",
+  "nomial": "Anthyllis L.",
+  "binomial": "Anthyllis vulneraria",
+  "loc": [
+    40.591617,
+    40.517248
+  ],
+  "loc_str": "2C, Rize: İkizdere, Ballıköy",
+  "habitat": "Çayırlık alanlar",
+  "height": 2394,
+  "date": {
+    "$date": {
+      "$numberLong": "1404939600000"
+    }
+  },
+  "herb": 21140,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_104039.jpg"
+},{
+  "_id": {
+    "$oid": "63626faac0921668cd54b2a8"
+  },
+  "family": "Malvaceae",
+  "nomial": "Alcea L.",
+  "binomial": "Alcea heldreichii",
+  "loc": [
+    36.778285,
+    27.814254
+  ],
+  "loc_str": "C2, Muğla: Datça, Emecik Mah.",
+  "habitat": "Makilik arazi",
+  "height": 27,
+  "date": {
+    "$date": {
+      "$numberLong": "1526072400000"
+    }
+  },
+  "herb": 19733,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_104051.jpg"
+},{
+  "_id": {
+    "$oid": "6362702ac0921668cd54b2a9"
+  },
+  "family": "Malvaceae",
+  "nomial": "Alcea L.",
+  "binomial": "Alcea hohenackeri",
+  "loc": [
+    40.701991,
+    39.085429
+  ],
+  "loc_str": "Gümüşhane, Kürtün, Sarıoba köyü civarı",
+  "habitat": "Çayırlık alanlar",
+  "height": 1350,
+  "date": {
+    "$date": {
+      "$numberLong": "679093200000"
+    }
+  },
+  "herb": 9283,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_104059.jpg"
+},{
+  "_id": {
+    "$oid": "636270a0c0921668cd54b2aa"
+  },
+  "family": "Oxalidaceae",
+  "nomial": "Oxalis L.",
+  "binomial": "Oxalis pes-caprae L.",
+  "loc": [
+    36.778285,
+    27.814254
+  ],
+  "loc_str": "C2, Muğla; Datça, Emecik Mah.",
+  "habitat": "Tarla kenarı",
+  "height": 6,
+  "date": {
+    "$date": {
+      "$numberLong": "1523048400000"
+    }
+  },
+  "herb": 19738,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_104107.jpg"
+},{
+  "_id": {
+    "$oid": "63627142c0921668cd54b2ab"
+  },
+  "family": "Cistaceae",
+  "nomial": "Cistus L.",
+  "binomial": "Cistus salviifolius L.",
+  "loc": [
+    36.778285,
+    27.814254
+  ],
+  "loc_str": "C2, Muğla; Datça, Emecik Mah.",
+  "habitat": "Orman İçi",
+  "height": 25,
+  "date": {
+    "$date": {
+      "$numberLong": "1526590800000"
+    }
+  },
+  "herb": 19702,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_104134.jpg"
+},{
+  "_id": {
+    "$oid": "636271dbc0921668cd54b2ac"
+  },
+  "family": "Cupressaceae",
+  "nomial": "Juniperus L.",
+  "binomial": "Juniperus oxycedrus L.",
+  "loc": [
+    39.146054,
+    34.159432
+  ],
+  "loc_str": "B5, Kırşehir",
+  "habitat": "",
+  "height": 1000,
+  "date": {
+    "$date": {
+      "$numberLong": "1349902800000"
+    }
+  },
+  "herb": 9699,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_104258.jpg"
+},{
+  "_id": {
+    "$oid": "6362726ec0921668cd54b2ad"
+  },
+  "family": "Papaveraceae",
+  "nomial": "Glaucium Mill.",
+  "binomial": "Glaucium haussknechtii.",
+  "loc": [
+    40.405043,
+    40.067201
+  ],
+  "loc_str": "2C, Bayburt: Aydıntepe, Çatıksu",
+  "habitat": "Taşlık ve kayalık yamaç alanlar",
+  "height": 1572,
+  "date": {
+    "$date": {
+      "$numberLong": "1400792400000"
+    }
+  },
+  "herb": 21106,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_105116.jpg"
+},{
+  "_id": {
+    "$oid": "6362734fc0921668cd54b2ae"
+  },
+  "family": "Ranunculaceae",
+  "nomial": "Nigella L.",
+  "binomial": "Nigella latisecta.",
+  "loc": [
+    40.188343,
+    39.598014
+  ],
+  "loc_str": "2C, Gümüşhane: Köse, Akbaba",
+  "habitat": "Kurak araziler",
+  "height": 1511,
+  "date": {
+    "$date": {
+      "$numberLong": "1403643600000"
+    }
+  },
+  "herb": 21100,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_105125.jpg"
+},{
+  "_id": {
+    "$oid": "636273eec0921668cd54b2af"
+  },
+  "family": "Cupressaceae",
+  "nomial": "Thuja L.",
+  "binomial": "Thuja orientalis L.",
+  "loc": [
+    40.187995,
+    41.485118
+  ],
+  "loc_str": "B8, Erzurum: Şenyurt Köyü",
+  "habitat": "Yol kenarı",
+  "height": 1900,
+  "date": {
+    "$date": {
+      "$numberLong": "1565384400000"
+    }
+  },
+  "herb": 19807,
+  "image": "https://herbariumkato.s3.ap-northeast-1.amazonaws.com/Herb+Katalaog+HQ/IMG_20220729_105144.jpg"
+}]

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<head>
+	<title>
+KATO Herbaryumu Bitki Kütüphanesi
+	</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+crossorigin=""></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1 style="color: green; text-align:center">
+    KATO Herbaryumu Bitki Kütüphanesi
+	</h1>
+  <div id="info">
+	<p> Bitki Seçiniz:
+		<select id="select1">
+			<option value="Allium ampeloprasum L.">Allium ampeloprasum L.</option>
+			<option value="Helleborus orientalis Lam.">Helleborus orientalis Lam.</option>
+			<option value="Hyoscyamus niger L.">Hyoscyamus niger L.</option>
+      <option value="Centaurium erythraea.">Centaurium erythraea.</option>
+      <option value="Echinops pungens Trautv. var. pungens">Echinops pungens Trautv. var. pungens</option>
+      <option value="Filipendula vulgaris Moench.">Filipendula vulgaris Moench.</option>
+      <option value="Rosa Montana">Rosa Montana</option>
+      <option value="Cerastium fontanum">Cerastium fontanum</option>
+      <option value="Agrimona eupatoria L.">Agrimona eupatoria L.</option>
+      <option value="Lavatera thuringiaca L.">Lavatera thuringiaca L.</option>
+      <option value="Ceratonia siliqua L.">Ceratonia siliqua L.</option>
+      <option value="Anthyllis vulneraria">Anthyllis vulneraria</option>
+      <option value="Alcea heldreichii">Alcea heldreichii</option>
+      <option value="Alcea hohenackeri">Alcea hohenackeri</option>
+      <option value="Oxalis pes-caprae L.">Oxalis pes-caprae L.</option>
+      <option value="Cistus salviifolius L.">Cistus salviifolius L.</option>
+      <option value="Juniperus oxycedrus L.">Juniperus oxycedrus L.</option>
+      <option value="Glaucium haussknechtii.">Glaucium haussknechtii.</option>
+      <option value="Nigella latisecta.">Nigella latisecta.</option>
+      <option value="Thuja orientalis L.">Thuja orientalis L.</option>
+		</select>
+	</p>
+
+	<button onclick="getOption()"> Bitkiyi İncele </button>
+	
+  <p> Binomial:
+		<span class="output1"></span>
+	</p>
+  <p> Nomial:
+		<span class="output2"></span>
+	</p>
+  <p> Habitat:
+		<span class="output3"></span>
+	</p>
+  <p> Location:
+		<span class="output4"></span>
+	</p>
+  <p> Height:
+		<span class="output5"></span>
+	</p>
+  <p> Image URL:
+		<a id = "img" href="">Click</a>
+	</p>
+<div id="image">
+  <img id = "img_div_src" src="" style="max-width:100%;max-height:100%;">
+</div>
+</div>
+  <div id="map"></div>
+  <script type="text/javascript">
+    var map = L.map('map').setView([41.000485, 39.734573], 13);
+    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox/satellite-v9',
+        tileSize: 512,
+        zoomOffset: -1,
+        accessToken: 'pk.eyJ1IjoiYWxwZXJ0dW5nYSIsImEiOiJja2dycTA4dzQwZ2NnMnhtZndrem5sMmxjIn0.ME-SLkvnNKA7A71E_UN5pw'
+    }).addTo(map);
+    function getOption() {
+      selectElement = document.querySelector('#select1');
+      output = selectElement.value;
+      document.querySelector('.output1').textContent = output;
+      /**$.ajax({
+        url : "https://data.mongodb-api.com/app/data-bpgek/endpoint/data/v1/action/find",
+        headers : {
+          'Content-Type': 'application/json',
+          'Access-Control-Request-Headers': '*',
+          'api-key': '4UvoIHmkFKvXBiro8v6jrDHUdKCnobE3152iZX0yD4rfkZDQB8HSqhHLQEKfd476',
+        },
+        method : 'POST',
+        dataType : 'jsonp',
+        async: false,
+        data : JSON.stringify({
+            collection: "Herbs-Specs",
+            database: "Herbarium",
+            dataSource: "Cluster0",
+            filter: {
+                "binomial": output
+        }}),
+      success: function(data){
+      console.log('succes: '+data);
+      },
+      error: function(data){
+          console.log(data.responseText);
+      }
+      });**/
+      var response;
+      $.ajax({
+      url: "./Herbs-Specs.json",
+      async: false,
+      dataType: 'json',
+      success: function(data) {
+      response = data;
+          }
+      });
+
+      var img;
+      var loc;
+      for (i=0; i<response.length; i++){
+      if (response[i].binomial == output){
+        console.log(response[i].image)
+        document.querySelector('.output2').textContent = response[i].nomial;
+        document.querySelector('.output3').textContent = response[i].habitat;
+        document.querySelector('.output4').textContent = response[i].loc_str;
+        document.querySelector('.output5').textContent = response[i].height + " " + "meters";
+        document.getElementById("img").href = response[i].image;
+        document.getElementById("img_div_src").src = response[i].image;
+        map.setView(response[i].loc, 8);
+        L.marker(response[i].loc).bindPopup(output + "<br/>" + response[i].loc_str + "<br/>").addTo(map);
+      } }
+    };
+  </script>
+
+</body>
+
+</html>
